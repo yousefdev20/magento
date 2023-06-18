@@ -8,9 +8,14 @@
     ],
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true,
+            "magento/magento-composer-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
-    "version": "2.4.3",
+    "version": "2.4.6",
     "require": {
         "php": "~7.3.0||~7.4.0",
         "ext-bcmath": "*",
@@ -385,4 +390,3 @@
         }
     }
 }
-
